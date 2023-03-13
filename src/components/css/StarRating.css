@@ -1,0 +1,12 @@
+.star-rating {
+  display: inline-block;
+}
+
+.star-icon {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 4px;
+  background-image: url('../../assets/images/star2.png');
+  background-size: cover;
+}

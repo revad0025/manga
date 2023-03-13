@@ -1,0 +1,12 @@
+.alt-titles p:not(:first-child)::before{
+  content:'/ ';
+}
+.manga-detail-con .stars-rating-con{
+  justify-content: space-between;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  background-color: #81818167;
+}
+.manga-detail-con .stars-rating-con span {
+  color:#C0c0c0;
+}

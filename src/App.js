@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Router from './Router';
+import { RouterProvider } from 'react-router-dom';
+// import { useEffect } from 'react';
+// import useMangaContext from './hooks/useMangaContext';
 function App() {
+  // const { fetchComments } = useMangaContext();
+
+  // useEffect(() => {
+  //   fetchComments();
+  // },[fetchComments]); 
+
+  // useEffect(() => {
+  //   fetchTopManga();
+  // },[fetchTopManga]); 
+
+  // useEffect(() => {
+  //   fetchManga();
+  // },[fetchManga]); 
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <RouterProvider router={ Router }/>
+  )
 }
 
-export default App;
+export default App
